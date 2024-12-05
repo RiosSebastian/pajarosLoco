@@ -14,7 +14,7 @@ public class App {
        Pajaro pajaro = new Pajaro();
        frame.add(pajaro);
        frame.pack();
-
+       pajaro.requestFocus();
        frame.setVisible(true);
 
     }
